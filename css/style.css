@@ -1,0 +1,135 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+/* CARDS */
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 200px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+
+.cards h4 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  opacity: 0.8;
+}
+
+.cards p {
+  color: rgb(255, 255, 255);
+  text-align: centers;
+  opacity: 0.6;
+  padding: 10px;
+}
+
+/* CONTAINER */
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+/* BANNERS */
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 50px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* BUTTONS */
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background:rgb(200, 27, 143);
+  transition: 0.3s ease;
+}
+
+.btn-flat:hover {
+  background:rgb(227, 8, 154);
+  color: white;
+}
+
+/* FOOTER */
+.footer {
+  background: #787676;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.footer-links a {
+  color: rgb(200, 27, 143);
+  opacity: 0.6;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.text-center {
+  text-align: center;
+}
